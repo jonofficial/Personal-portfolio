@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;   
+}
+
+body{
+    background-image: linear-gradient(45deg, #0c1022, #1e002a,#3b0054,#4a006a);
+    -webkit-background-clip: text;
+    color: #fff;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    pointer-events: none;
+}
+
+.navbar a{
+    transition: .5s ease;
+    pointer-events: auto;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 550;
+    margin-left: 35px;
+}
+
+.active{
+    background-image: linear-gradient(45deg,red,orange,yellowgreen);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.navbar a:hover{
+    transform: scale(2);
+    background-image: linear-gradient(45deg, red,orange,yellowgreen);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+
+}
+
+.home-content{
+    max-width: 500px;
+}
+
+.home-content h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.home-content h3{
+    margin-bottom: 5px;
+    font-size: 32px;
+    font-weight: 700;       
+}
+
+.home-content p{
+    margin: 20px 0 40px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.btn{
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width:180px;
+    height: 48px;
+    background-image: linear-gradient(45deg,#f06,#3cf,#f06);
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-image: linear-gradient(45deg,#3cf,#f06,#3cf);
+}
+
+.home-icons{
+    align-items: center;
+}
+.home-icons a{
+    color: white;
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    display:block;
+    transition: transform 0.5s ease;
+}
+
+.home-icons a:hover{
+    transform: scale(1.2);
+}
+
+
