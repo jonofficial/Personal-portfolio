@@ -25,7 +25,7 @@ body{
 .logo{
     opacity: 0;
     animation: slideTop 1s ease forwards;
-    font-size: 25px;
+    font-size: 28px;
     color: #fff;
     text-decoration: none;
     font-weight: 700;
